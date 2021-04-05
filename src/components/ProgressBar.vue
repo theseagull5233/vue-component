@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="text-align: center">
     <h5>内联无限循环进度条</h5>
     <p class="mui-progressbar mui-progressbar-infinite"></p>
   </div>
