@@ -14,6 +14,8 @@
 <!--  transition的用法-->
   <BoxTransition/>
   <a-divider/>
+<!--  canvas定位图标-->
+  <PositionPic></PositionPic>
 </div>
 </template>
 
@@ -21,10 +23,12 @@
 import ProgressBar from "@/components/ProgressBar";
 import Drawer from "@/components/Drawer";
 import BoxTransition from "@/components/BoxTransition";
+import PositionPic from "@/components/PositionPic";
 
 export default {
   name: 'App',
   components: {
+    PositionPic,
     BoxTransition,
     Drawer,
     ProgressBar,
